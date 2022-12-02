@@ -1,5 +1,5 @@
-//go:build !testnet
-// +build !testnet
+//go:build !testnet && !regtest
+// +build !testnet,!regtest
 
 package boltz
 
